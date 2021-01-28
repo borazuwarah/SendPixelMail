@@ -21,3 +21,16 @@ with this mode you can see where open this mail, what is the IP, browser and mor
 
 
 
+Required:
+PHP v 7.2
+MySQL
+
+Using:
+phpmailer including .zip in the proyect
+
+
+
+
+
+
+
