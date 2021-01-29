@@ -21,11 +21,13 @@ with this mode you can see where open this mail, what is the IP, browser and mor
 
 
 
-Required:
+
+
+<h1>Required:</h1>
 PHP v 7.2
 MySQL
 
-Using:
+<h1>Using:</h1>
 phpmailer including .zip in the proyect
 you can use the mail () function but it is possible that on your server/local it is blocked for security
 
