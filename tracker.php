@@ -33,7 +33,7 @@ function get_ip_address() {
 //#################################
 function SendMail()
 {
-
+//your mail
 }
 //#################################
 // Insert in Mysql Database
