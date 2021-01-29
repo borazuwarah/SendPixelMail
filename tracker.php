@@ -2,7 +2,7 @@
 //here we go to read the mail Open
 
 //#################################
-//GET DATE
+//GET DATA
 //#################################
 $id= $_Get['id'];
 $ip = get_ip_address();
