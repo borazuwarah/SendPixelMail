@@ -29,7 +29,7 @@ function get_ip_address() {
 }
 
 //#################################
-// Send Mail whit the information tracker
+// Send Mail whit the information tracker using phpmailer
 //#################################
 function SendMail()
 {
