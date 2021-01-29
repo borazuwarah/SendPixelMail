@@ -16,7 +16,7 @@ send a mail whit a pixel
 </pre>
 <hr>
 
-with this mode you can see where open this mail, what is the IP, browser and more info like IP...
+with this mode you can see where open this mail, what is the IP, browser and more info...
 
 
 
@@ -27,10 +27,6 @@ MySQL
 
 Using:
 phpmailer including .zip in the proyect
-
-
-
-
-
+you can use the mail () function but it is possible that on your server/local it is blocked for security
 
 

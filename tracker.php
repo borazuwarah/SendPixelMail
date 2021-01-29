@@ -12,27 +12,43 @@ $ip = get_ip_address();
 // FUNCIONES
 //#################################
 
-
+//#################################
+// Get IP adress
+//#################################
 function get_ip_address() {
-
     if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-
         $ip = $_SERVER['HTTP_CLIENT_IP'];
-
     } else {
-
         if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-
             $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-
         } else {
-
             $ip = $_SERVER['REMOTE_ADDR'];
         }
     }
     return $ip;
 }
 
+//#################################
+// Send Mail whit the information tracker
+//#################################
+function SendMail()
+{
+
+}
+//#################################
+// Insert in Mysql Database
+//#################################
+function SaveTracker()
+{
+    
+}
+
+//here you can Insert the information in a Mysql database (for example)
+//send other mail to your acount whit the information
+//we now configure this
+$sendmail=true;
+$insertMysql=false;
+if($sendmail)
 
 
 
